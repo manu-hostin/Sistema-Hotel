@@ -25,7 +25,7 @@ Este projeto é um **sistema de gestão para um hotel**, desenvolvido em Java. O
 
 ## Tecnologias Utilizadas
 
-- Java 8+
+- Java 24+
 - Collections (`List`)
 - Tratamento de exceções com `try/catch`
 
@@ -44,9 +44,7 @@ Este projeto é um **sistema de gestão para um hotel**, desenvolvido em Java. O
 ## Dúvidas 
 <p class="contact">
 Para dúvidas, sugestões ou contribuições, entre em contato:<br>
-Email: emanuelle_hostin@estudante.sesisenai.org.br
-<br>
-maria_e_zabel@estudante.sesisenai.org.br
+Email: *emanuelle_hostin@estudante.sesisenai.org.br*, *maria_e_zabel@estudante.sesisenai.org.br*
 <br>
 GitHub: <a href="https://github.com/manu-hostin">manu-hostin</a>
 </p>
