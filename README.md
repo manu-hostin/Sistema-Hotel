@@ -41,8 +41,13 @@ Este projeto é um **sistema de gestão para um hotel**, desenvolvido em Java. O
 
 ---
 
+## Dúvidas 
 <p class="contact">
 Para dúvidas, sugestões ou contribuições, entre em contato:<br>
-Email: emanuelle_hostin@estudante.sesisenai.org.br<br>maria_e_zabel@estudante.sesisenai.org.br
-GitHub: <a href="https://github.com/manu-hostin/Sistema-Hotel">manu-hostin</a>
+Email: emanuelle_hostin@estudante.sesisenai.org.br
+<br>
+maria_e_zabel@estudante.sesisenai.org.br
+<br>
+GitHub: <a href="https://github.com/manu-hostin">manu-hostin</a>
 </p>
+
