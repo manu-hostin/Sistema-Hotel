@@ -1,86 +1,48 @@
-Sistema de Gestão de Hotel
-Descrição do Projeto
+<h1 style="text-align: center;">Sistema de Gestão de Hotel</h1>
 
-Este sistema foi desenvolvido para gerir as operações de um hotel. Ele permite o cadastro de hóspedes, quartos e reservas, além de oferecer funcionalidades para listar, pesquisar, editar e cancelar dados no sistema. O sistema foi construído em Java, utilizando conceitos de orientação a objetos, como classes, herança, polimorfismo, agregação e encapsulamento.
+---
 
-Funcionalidades do Sistema:
+## Descrição
 
-Cadastro de Hóspedes: Cadastro de informações do hóspede, como nome, documento e telefone.
+Este projeto é um **sistema de gestão para um hotel**, desenvolvido em Java. O sistema permite o cadastro e gerenciamento de hóspedes, quartos, reservas e serviços oferecidos pelo hotel.
 
-Cadastro de Quartos: Cadastro de quartos disponíveis no hotel, incluindo número, tipo e preço.
+---
 
-Cadastro de Reservas: Realização de reservas, associando hóspedes a quartos com datas de entrada e saída.
+## Funcionalidades
 
-Listagem: Listagem de todos os hóspedes, quartos e reservas registradas no sistema.
+- Cadastro de hóspedes (nome, documento, telefone)
+- Cadastro de quartos (número, tipo, preço)
+- Cadastro de reservas (hóspede, quarto, datas)
+- Listagem de hóspedes, quartos e reservas
+- Pesquisa por nome, tipo e hóspedes
+- Edição de dados de hóspedes
+- Cancelamento de reservas
+- Tratamento de erros para entradas inválidas
+- Submenus para facilitar navegação
+- Uso de conceitos de POO: encapsulamento, herança, agregação e polimorfismo
 
-Pesquisa: Pesquisa de hóspedes por nome, quartos por tipo e reservas por nome do hóspede.
+---
 
-Edição de Hóspede: Atualização dos dados de um hóspede já cadastrado.
+## Tecnologias Utilizadas
 
-Cancelamento de Reserva: Cancelamento de uma reserva existente.
+- Java 8+
+- Collections (`List`)
+- Tratamento de exceções com `try/catch`
 
-Saída do Sistema: Opção para sair do sistema de gestão.
+---
 
-Desafios Implementados:
+## Estrutura do Projeto
 
-Classe Abstrata Pessoa: Criação de uma classe abstrata Pessoa que contém atributos e métodos comuns a todas as pessoas do sistema, como os hóspedes.
+| Pacote    | Descrição                                                            |
+|-----------|----------------------------------------------------------------------|
+| `model`   | Classes que representam as entidades do sistema (Hospede, Quarto, Reserva, Serviço) |
+| `view`    | Classes responsáveis pela interação com o usuário (menus)            |
+| `service` | Lógica de negócio para manipulação dos dados                         |
 
-Agregação com Serviços: A classe Reserva agrega um ou mais serviços, como café da manhã ou lavanderia, permitindo a customização das reservas com serviços adicionais.
+---
 
-Estrutura do Projeto
-
-O código foi organizado em pacotes para facilitar a manutenção e escalabilidade:
-
-model: Contém as classes que representam as entidades do sistema (Hóspede, Quarto, Reserva, Serviço).
-
-view: Responsável pela interface do usuário e exibição das opções no console.
-
-service: Contém as lógicas de negócios do sistema, como manipulação de listas e operações de cadastro, pesquisa, edição e cancelamento.
-
-Requisitos Técnicos
-
-Java 8+.
-
-IDE: Qualquer IDE que suporte Java, como Eclipse, IntelliJ ou VS Code.
-
-Bibliotecas: Nenhuma biblioteca externa foi utilizada. Apenas a biblioteca padrão do Java.
-
-Como Rodar o Sistema
-1. Clone o repositório:
-```git clone https://github.com/seu-usuario/sistema-hotel.git```
-
-2. Compile o código:
-
-Na raiz do projeto, execute o comando para compilar:
-
-javac -d bin src/**/*.java
-
-3. Execute o sistema:
-
-Na pasta bin, execute o sistema com o comando:
-
-java view.Menu
-
-Isso abrirá o menu principal do sistema
-
-Conceitos Utilizados
-
-Encapsulamento: Todos os atributos das classes são privados e acessados por meio de métodos getters e setters.
-
-Herança: Hóspede herda de uma classe abstrata Pessoa, que contém dados comuns.
-
-Agregação: A classe Reserva contém uma lista de objetos Servico como parte de sua estrutura.
-
-Polimorfismo e instanceof: O sistema pode verificar o tipo de objeto em tempo de execução utilizando instanceof quando necessário.
-
-Tratamento de Erros
-
-Foi implementado tratamento de exceções com try/catch para capturar entradas inválidas do usuário, como valores numéricos fora do esperado ou formato de datas incorreto.
-
-Melhorias Futuras
-
-Persistência de Dados: Integrar com um banco de dados para persistir as informações.
-
-Interface Gráfica: Substituir a interface de console por uma interface gráfica (GUI).
-
-Autenticação de Usuário: Implementar um sistema de login para acesso restrito.
+<p class="contact">
+Para dúvidas, sugestões ou contribuições, entre em contato:<br>
+Email: emanuelle_hostin@estudante.sesisenai.org.br<br>maria_e_zabel@estudante.sesisenai.org.br
+GitHub: <a href="https://github.com/manu-hostin/Sistema-Hotel">manu-hostin</a>
+</p>
